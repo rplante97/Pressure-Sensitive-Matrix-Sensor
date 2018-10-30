@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=ADC.SchDoc
+Record=SheetSymbol|SourceDocument=ADC.SchDoc|Designator=U_SigCapture1|SchDesignator=U_SigCapture1|FileName=SigCapture1.SchDoc|SymbolType=Normal|RawFileName=SigCapture1.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ADC.SchDoc|Designator=U_SigCapture2|SchDesignator=U_SigCapture2|FileName=SigCapture2.SchDoc|SymbolType=Normal|RawFileName=SigCapture2.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ADC.SchDoc|Designator=U_SigCapture3|SchDesignator=U_SigCapture3|FileName=SigCapture3.SchDoc|SymbolType=Normal|RawFileName=SigCapture3.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
