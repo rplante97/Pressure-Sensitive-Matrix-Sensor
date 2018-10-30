@@ -1,4 +1,5 @@
 import time
+import tkinter
 from tkinter import *
 
 #Canvas initialization and size
@@ -20,7 +21,7 @@ for j in range(8):
 #Define our active_sensor object
 active_sensor = c.create_rectangle(40, 40, 80, 80, fill='red')
 #Delay between activations
-delay = 0.5
+delay = 0.15
 #Distance to move activated sensor each update
 x_mov = 80
 y_mov = 80
