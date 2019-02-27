@@ -172,8 +172,8 @@ while(1):
             print(pin_control[i][0], pin_control[i][1], pin_control[i][2], pin_control[i][3])
         else: #No idea how we would EVER get here, but can't hurt
             print("ERROR out of range")
-        
-        
+
+
         #GND ITERATION
         for j in range(40):
             if(j <= 15): #The first GND mux
