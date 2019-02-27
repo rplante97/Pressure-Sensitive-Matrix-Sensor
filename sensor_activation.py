@@ -192,7 +192,7 @@ while(1):
                 GPIO.output(S2G3, int(pin_control[j][1]))
             else:
                 print("ERROR out of range")
-            time.sleep(0.0005) #Really no way to tell exactly how long this will sleep for, but a little bit is desired to be safe
+            time.sleep(100) #Really no way to tell exactly how long this will sleep for, but a little bit is desired to be safe
             #Read the ADC here
             value = mcp.read_adc(0)
             sys.stdout.write("%s " % value)

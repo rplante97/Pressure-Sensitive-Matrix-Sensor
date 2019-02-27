@@ -2,10 +2,12 @@
 ###Initialization functions for the pressure sensitive matrix
 ###
 
+import RPi.GPIO as GPIO #GPIO controls
 #Hardware SPI librarys for our ADC
 import Adafruit_GPIO.SPI as SPI
 import Adafruit_MCP3008
-import RPi.GPIO as GPIO #GPIO controls
+
+
 
 def hardware_init(spi):
     #Define Pi pin mappings using HARDWARE PIN LABELS
@@ -45,6 +47,6 @@ def hardware_init(spi):
         SPI_PORT   = 0
         SPI_DEVICE = 0
         mcp = Adafruit_MCP3008.MCP3008(spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE))
-
-    GPIO.setup(pinout.values(), GPIO.OUT) #might need loop here, test on pi
-    GPIO.output(pinout.values(), 0) #might need loop, test on pi
+    #Initialize pins to output mode and set to 0
+    GPIO.setup(pinout.values(), GPIO.OUT)
+    GPIO.output(pinout.values(), 0)
